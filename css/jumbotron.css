@@ -1,0 +1,35 @@
+/* Move down content because we have a fixed navbar that is 50px tall */
+body {
+  padding-top: 0;
+  background-image: linear-gradient(-70deg,#65C3E8,#371633);
+  font-size: 1.2rem;
+}
+sup {
+    top: -3.3em;
+    font-size: 75%;
+}
+.jumbotron {
+	padding: 5rem 1rem;
+	color: #fff;
+	min-height: 650px;
+	border-radius: 0px;
+	background: none;
+}
+.jumbotron img {
+	width: 200px;
+	border-radius: 50%;
+}
+.lilinkbtn{border:1px solid #283E4A;color:#283E4A;background:#fff; !important;}
+.drag-social-button  {margin-top: 15px;margin-left: -40px;}
+.drag-social-button ul li {display: block;}
+.drag-social-button li a{color:#283E4A;width:50px;height:50px;padding-top:10px;border-radius:100%;text-align:center;display:block;float:left;margin-right:10px;margin-bottom:10px;-webkit-transition:background .3s ease-in;-moz-transition:background .3s ease-in;-ms-transition:background .3s ease-in;-o-transition:background .3s ease-in;transition:background .3s ease-in;}
+.drag-social-button li a:hover{background:#fff;color:#283E4A;}
+.drag-social-button{overflow:auto;margin-bottom:40px;}
+@media (max-width: 640px) {
+    .display-3 {
+    font-size: 2em;
+	font-weight: 300;
+	line-height: 1.1;
+    }
+}
+
